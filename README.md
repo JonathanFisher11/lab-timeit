@@ -172,9 +172,9 @@ Complete the table by modifying the `N` and `CONTAINER` variables in the shell c
 
 |                        | `CONTAINER=list` | `CONTAINER=deque`     |
 | ---------------------- | ---------------- | --------------------- |
-| `N=16`                 |  128mses         |    2.46msec           |
+| `N=16`                 |  128msec         |    2.46msec           |
 | `N=17`                 |  569msec         |    4.91msec           |
-| `N=18`                 |  3.93sec         |    3.93msec           |
+| `N=18`                 |  3.93sec         |    9.81msec           |
 | `N=19`                 |  19.1sec         |    19.7msec           |
 
 You should observe that the quadratic algorithm/container combination gets *really* slow *really* fast.
